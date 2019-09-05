@@ -1,0 +1,313 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5183532611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.logIn()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Room size calculation in feet",
+        "description": "",
+        "id": "calculation-the-room-s-precise-size;room-size-calculation-in-feet",
+        "after": [
+          {
+            "result": {
+              "duration": 93132425,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23188841,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on the calculator page",
+            "match": {
+              "location": "AreaCalculator.user_on_the_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289034089,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User select measure unit: Feet",
+            "match": {
+              "location": "AreaCalculator.user_select_measure_unit_Feet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 685351551,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User provides dimensions in feet and inches",
+            "match": {
+              "location": "AreaCalculator.user_provides_dimensions_in_feet_and_inches()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51632630,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click to Calculate button",
+            "match": {
+              "location": "AreaCalculator.user_click_to_Calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108767676,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has to get result of total area of room",
+            "match": {
+              "location": "AreaCalculator.user_has_to_get_result_of_total_area_of_room()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AreaCalculation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7267972448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.logIn()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Room size calculation in meters",
+        "description": "",
+        "id": "calculation-the-room-s-precise-size;room-size-calculation-in-meters",
+        "after": [
+          {
+            "result": {
+              "duration": 109048994,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5309890,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User on the calculator page",
+            "match": {
+              "location": "AreaCalculator.user_on_the_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 608889376,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User select measure unit: Meters",
+            "match": {
+              "location": "AreaCalculator.user_select_measure_unit_Meters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 417234774,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User provides dimensions in meters",
+            "match": {
+              "location": "AreaCalculator.user_provides_dimensions_in_meters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69552038,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click to Calculate button",
+            "match": {
+              "location": "AreaCalculator.user_click_to_Calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116607000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to get result of total area of room",
+            "match": {
+              "location": "AreaCalculator.user_has_to_get_result_of_total_area_of_room()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AreaCalculation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4153108234,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.logIn()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Clearing all fields",
+        "description": "",
+        "id": "calculation-the-room-s-precise-size;clearing-all-fields",
+        "after": [
+          {
+            "result": {
+              "duration": 89325258,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5335636,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User on the calculator page",
+            "match": {
+              "location": "AreaCalculator.user_on_the_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322269823,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User select measure unit: Feet",
+            "match": {
+              "location": "AreaCalculator.user_select_measure_unit_Feet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647884236,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User provides dimensions in feet and inches",
+            "match": {
+              "location": "AreaCalculator.user_provides_dimensions_in_feet_and_inches()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59772454,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on Clear button",
+            "match": {
+              "location": "AreaCalculator.user_click_on_Clear_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53532010,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User has to get all fields empty",
+            "match": {
+              "location": "AreaCalculator.user_has_to_get_all_fields_empty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AreaCalculation"
+          }
+        ]
+      }
+    ],
+    "name": "Calculation the room\u0027s precise size",
+    "description": "",
+    "id": "calculation-the-room-s-precise-size",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/RoomSizeCalculator.feature",
+    "tags": [
+      {
+        "name": "@AreaCalculation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
